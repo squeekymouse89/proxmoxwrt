@@ -8,7 +8,7 @@ pct create $number /tmp/rootfs.tar.xz --ostype unmanaged --hostname $name -net0 
 rm /tmp/squeekysopenwrtrootfs.tar.xz
 clear
 echo You can now find $name in the Proxmox Web UI and finish configuration. Please ensure you check your cpu, ram and nic settings. Two NICS have been created but not assigned to any interfaces. Enjoy !
-
+rm squeekyopenwrt.sh
 
 
 
