@@ -9,4 +9,4 @@ The script will ask you a few simple questions.
 1. Where is the url for the rootfs you want to use (guidance given in the script)
 2. The container number you want to use
 3. The container name you want in proxmox
-4. It will delete itself the rootfs and tidy up.
+4. It will delete itself and the downloaded openwrt rootfs when completed.
